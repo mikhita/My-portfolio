@@ -2,5 +2,157 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    align-items: center;
+}
+.sliderMainDiv img{
+    width: 270px;
+    height: 180px;
+}
+.designSolutionText{
+    width: 303px;
+}
+.underH1TagText{
+    color: #7A746E;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 303px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+button{
+    height: 44px;
+    width: 176px;
+    border-radius: 28px;
+    background: #030303;
+    color: white;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    align-self: center;
+}
+.uxApp{
+    display: flex;
+    justify-content: space-between;
+    width: 343px;
+    align-self: flex-end;
+}
+.imagesFirstSix img{
+    margin-top: 16px;
+}
+.mobileAmyPhoto{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.aboutAmy h3{
+    font-family: Plus Jakarta Sans;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: center;
 
+}
+.aboutAmy p{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #7A746E;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.aboutAmy button{
+    background-color: #EB7565;
+    border: none;
+    margin-bottom: 100px;
+}
+.myWork{
+    margin-bottom: 28px;
+}
+.sliderMainDiv{
+    width: 1410px;
+    overflow: hidden;
+    height: 100%;
+    margin-bottom: 28px;
+    overflow-y: visible;
+    padding: 0; 
+    position: relat;
+    left: -140%;
+    display: flex;
+}
+.sliderMainDiv img{
+    margin-right: 15px;
+   
+}
+.arrows div{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: black;
+}
+.arrows div img{
+    position: relative;
+    top: 35%;
+}
+.arrows{
+    display: flex;
+    width: 144px;
+    justify-content: space-between;
+    align-self: center;
+    margin-bottom: 100px;
+}
+.bookACall{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.bookACall button{
+    margin-bottom: 48px;
+    background-color: #EB7565;
+    border: none;
+    margin-top: 32px;
+}
+.bookACall p{
+    width: 295px;
+    align-self: center;
+}
+.bookACall h3{
+    margin-top: 49px;
+    margin-bottom: 24px;
+}
+footer{
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
