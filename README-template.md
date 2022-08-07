@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mikhita/single-page-design-portfolio)
-- Live Site URL: [Add live site URL here](https://mikhita.github.io/single-page-design-portfolio/)
+- Solution URL: [ solution URL here](https://github.com/mikhita/single-page-design-portfolio)
+- Live Site URL: [ live site URL here](https://mikhita.github.io/single-page-design-portfolio/)
 
 ## My process
 I start with mobile-first workflow and finish mark-up in 5 hours intensive job, it was super good and responsible but I lost a lot of time doing the slider for large div, because I didnot know the what is regex function, but after I use that it was more easy to write the logic of function for eventlistener.
