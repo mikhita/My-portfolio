@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mikhita/single-page-design-portfolio)
-- Live Site URL: [Add live site URL here](https://mikhita.github.io/single-page-design-portfolio/)
+- Solution URL: [ solution URL here](https://github.com/mikhita/single-page-design-portfolio)
+- Live Site URL: [ live site URL here](https://mikhita.github.io/single-page-design-portfolio/)
 
 ## My process
 I start with mobile-first workflow and finish mark-up in 5 hours intensive job, it was super good and responsible but I lost a lot of time doing the slider for large div, because I didnot know the what is regex function, but after I use that it was more easy to write the logic of function for eventlistener.
@@ -81,12 +81,6 @@ arrowRight.addEventListener('click', function(){
     
 });
 ```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
