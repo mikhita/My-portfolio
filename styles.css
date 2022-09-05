@@ -223,17 +223,16 @@ footer{
     width: 270px;
     height: 180px;
 }
-a:hover{
+#headerA:hover{
+    background-color: #755CDE;
+    cursor: pointer;
+}
+.arrows div:hover {
     background-color: #755CDE;
     cursor: pointer;
 
 }
-.arrows div:hover{
-    background-color: #755CDE;
-    cursor: pointer;
-
-}
-.aboutAmy a:hover, .bookACall button:hover{
+.aboutAmy a:hover, #footera:hover{
     background: #F6A560;
     cursor: pointer;
 }
