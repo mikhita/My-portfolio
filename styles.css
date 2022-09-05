@@ -40,7 +40,7 @@ header{
     margin-bottom: 32px;
     width: 100%;
 }
-button{
+button,#headerA,#footera{
     height: 44px;
     width: 176px;
     border-radius: 28px;
@@ -52,12 +52,31 @@ button{
     line-height: 28px;
     letter-spacing: 0px;
     align-self: center;
+    text-decoration: none;
+   
+}
+#aboutMixo{
+    height: 64px;
+    background-color: #F6A560;
+}
+#headerA,#footera{
+    padding-top: 14px;
 }
 .uxApp{
     display: flex;
     justify-content: space-between;
     width: 343px;
     align-self: flex-end;
+}
+.uxApp img{
+    width:159px;
+    height: 182px;
+    border-radius: 10px;
+}
+#react, #resp, #analitics{
+    width:340px;
+    height: 182px;
+    border-radius: 10px;
 }
 .fromuixToIlust{
     text-align: center;
@@ -86,6 +105,8 @@ button{
 .mobileAmyPhoto{
     margin-top: 100px;
     margin-bottom: 40px;
+    border-radius: 50%;
+    width: 300px;
 }
 .aboutAmy h3{
     font-family: Plus Jakarta Sans;
@@ -107,14 +128,16 @@ button{
     margin-top: 24px;
     margin-bottom: 24px;
 }
-.aboutAmy button{
+
+#myBotton{
+    height: 44px !important;
+    width: 176px !important;
     background-color: #EB7565;
-    border: none;
-    margin-bottom: 100px;
 }
 .myWork{
     margin-bottom: 28px;
 }
+
 .sliderMainDiv{
     width: 1410px;
     overflow: hidden;
@@ -189,6 +212,12 @@ footer{
 }
 .right{
     transform: translate(0,0);
+}
+#footera{
+    margin-bottom: 48px;
+    background-color: #EB7565;
+    border: none;
+    margin-top: 32px;
 }
 @media only screen and (min-width: 768px){
     .sliderMainDiv{
@@ -467,7 +496,7 @@ footer{
             cursor: pointer;
 
         }
-        .aboutAmy button:hover, .bookACall button:hover{
+        .aboutAmy a:hover, .bookACall button:hover{
             background: #F6A560;
             cursor: pointer;
         }
