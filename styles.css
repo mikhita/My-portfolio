@@ -223,6 +223,20 @@ footer{
     width: 270px;
     height: 180px;
 }
+a:hover{
+    background-color: #755CDE;
+    cursor: pointer;
+
+}
+.arrows div:hover{
+    background-color: #755CDE;
+    cursor: pointer;
+
+}
+.aboutAmy a:hover, .bookACall button:hover{
+    background: #F6A560;
+    cursor: pointer;
+}
 @media only screen and (min-width: 768px){
     .sliderMainDiv{
         width:2800px;
@@ -489,19 +503,6 @@ footer{
             height: 158px;
             width: 164px;
         }
-        button:hover{
-            background-color: #755CDE;
-            cursor: pointer;
-
-        }
-        .arrows div:hover{
-            background-color: #755CDE;
-            cursor: pointer;
-
-        }
-        .aboutAmy a:hover, .bookACall button:hover{
-            background: #F6A560;
-            cursor: pointer;
-        }
+        
     }
 }
