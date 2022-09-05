@@ -13,7 +13,7 @@ body{
     text-align: center;
     align-items: center;
 }
-.sliderMainDiv img{
+.sliderMainDiv > a > img{
     width: 270px;
     height: 180px;
     transition: 0.5s;
@@ -152,7 +152,7 @@ button,#headerA,#footera{
     
 
 }
-.sliderMainDiv img{
+.sliderMainDiv> a> img{
     margin-right: 15px;
    
 }
@@ -219,6 +219,10 @@ footer{
     border: none;
     margin-top: 32px;
 }
+.widthMobileAndHeight{
+    width: 270px;
+    height: 180px;
+}
 @media only screen and (min-width: 768px){
     .sliderMainDiv{
         width:2800px;
@@ -276,14 +280,13 @@ footer{
         display: flex;
         min-width: 720px;
         margin-top: 120px;
-        position: relative;
+        /* position: relative; */
         left: -9%;
         margin-bottom: 120px;
         
     }
     .aboutAmy{
         width: 339px;
-        margin-top: 65px;
         align-self: center;
     }
     .aboutAmy h3{
@@ -311,7 +314,7 @@ footer{
     }
     .mobileAmyPhoto{
         align-self: center;
-        width: 364px;
+        width: 300px;
         margin-right: 69px;
         margin-top: 80px;
         margin-bottom: 100px
@@ -326,7 +329,7 @@ footer{
         text-align: left;
         margin-bottom: 84px;
     }
-    .sliderMainDiv img{
+    .sliderMainDiv> a>img{
         min-width: 540px;
         min-height: 360px;
         margin-bottom: 56px;
@@ -459,7 +462,7 @@ footer{
             text-align: left;
             margin-bottom: 84px;
         }
-        .sliderMainDiv img{
+        .sliderMainDiv >a>img{
             min-width: 540px;
             min-height: 360px;
             margin-bottom: 56px;
