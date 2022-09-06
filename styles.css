@@ -236,6 +236,9 @@ footer{
     background: #F6A560;
     cursor: pointer;
 }
+#hea{
+    width: 80px;
+}
 @media only screen and (min-width: 768px){
     .sliderMainDiv{
         width:2800px;
