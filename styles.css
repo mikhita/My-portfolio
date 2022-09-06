@@ -239,6 +239,19 @@ footer{
 #hea{
     width: 80px;
 }
+.socialMedia> a > img{
+    width: 40px;
+}
+.socialMedia{
+    width: 40%;
+}
+.bookACall>.socialMedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+    margin-bottom: 20px;
+}
 @media only screen and (min-width: 768px){
     .sliderMainDiv{
         width:2800px;
