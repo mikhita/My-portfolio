@@ -139,7 +139,6 @@ button,#headerA,#footera{
 }
 
 .sliderMainDiv{
-    width: 1410px;
     overflow: hidden;
     height: 100%;
     margin-bottom: 28px;
@@ -149,13 +148,9 @@ button,#headerA,#footera{
     left: -140%;
     display: flex;
     transition: 0.5s;
-    
+    gap: 50px;
+}
 
-}
-.sliderMainDiv> a> img{
-    margin-right: 15px;
-   
-}
 .arrows div{
     width: 64px;
     height: 64px;
@@ -253,9 +248,6 @@ footer{
     margin-bottom: 20px;
 }
 @media only screen and (min-width: 768px){
-    .sliderMainDiv{
-        width:2800px;
-    }
     .designSolutionText{
         width: 690px;
         font-family: Plus Jakarta Sans;
