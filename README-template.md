@@ -2,15 +2,6 @@
 
 This is a solution to the [Single-page design portfolio challenge on Frontend Mentor](https://www.frontendmentor.io/). Frontend Mentor challenges help me improve my coding skills by building realistic projects. 
 
-## Table of contents
-
-
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 
 
 
