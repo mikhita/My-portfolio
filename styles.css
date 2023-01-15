@@ -139,6 +139,7 @@ button,#headerA,#footera{
 }
 .myWork{
     margin-bottom: 28px;
+    align-self: center;
 }
 
 .sliderMainDiv{
